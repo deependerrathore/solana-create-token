@@ -1,4 +1,4 @@
-import solanaWeb3, { clusterApiUrl, PublicKey } from '@solana/web3.js';
+import { clusterApiUrl, PublicKey } from '@solana/web3.js';
 import { Connection, LAMPORTS_PER_SOL } from '@solana/web3.js';
 
 const connection = new Connection(clusterApiUrl('devnet'));
